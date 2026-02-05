@@ -23,6 +23,19 @@ $euiCollapsibleNavWidth: $euiSize * 20;
   }
 }
 
+// Start - Wazuh: fix color banding in dark mode backgrounds for v9 theme
+.theme-dark {
+  .application {
+    background: linear-gradient(180deg, $ouiPageBackgroundColor 0%, $ouiPageBackgroundColor 100%);
+  }
+
+  .euiPage {
+    background: linear-gradient(180deg, $ouiPageBackgroundColor 0%, $ouiPageBackgroundColor 100%) !important;
+  }
+}
+
+// End - Wazuh: fix color banding in dark mode backgrounds for v9 theme
+
 .application {
   position: relative;
   z-index: 0;
