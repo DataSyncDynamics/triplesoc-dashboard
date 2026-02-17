@@ -240,19 +240,19 @@
 #  'ff00::/8',
 # ]
 
-# opensearchDashboards.branding:
-#   logo:
-#     defaultUrl: ""
-#     darkModeUrl: ""
-#   mark:
-#     defaultUrl: ""
-#     darkModeUrl: ""
-#   loadingLogo:
-#     defaultUrl: ""
-#     darkModeUrl: ""
-#   faviconUrl: ""
-#   applicationTitle: ""
-#   useExpandedHeader: false
+opensearchDashboards.branding:
+  logo:
+    defaultUrl: "/ui/logos/wazuh_dashboards_on_light.svg"
+    darkModeUrl: "/ui/logos/wazuh_dashboards_on_dark.svg"
+  mark:
+    defaultUrl: "/ui/logos/wazuh_mark_on_light.svg"
+    darkModeUrl: "/ui/logos/wazuh_mark_on_dark.svg"
+  loadingLogo:
+    defaultUrl: "/ui/logos/wazuh_center_mark_on_light.svg"
+    darkModeUrl: "/ui/logos/wazuh_center_mark_on_dark.svg"
+  faviconUrl: "/ui/logos/wazuh_mark.svg"
+  applicationTitle: "TripleSOC Dashboard"
+  useExpandedHeader: false
 
 # Set the value of this setting to true to capture region denied warnings and errors
 # for your map rendering services.

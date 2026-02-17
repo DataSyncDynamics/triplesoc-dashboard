@@ -33,6 +33,8 @@ if (window.__osdStrictCsp__ && window.__osdCspNotEnforced__) {
     ...(['v7', 'v7'].includes(themeVersion)
     ? ['{{basePath}}/ui/wz_v7_theme_overwrite.css']
     : []),
+    // TripleSOC: brand color overrides
+    '{{basePath}}/ui/triplesoc_overrides.css',
   ];
 
   window.onload = function () {
