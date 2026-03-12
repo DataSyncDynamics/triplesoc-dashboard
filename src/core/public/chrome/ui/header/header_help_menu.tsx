@@ -226,15 +226,15 @@ class HeaderHelpMenuUI extends Component<Props, State> {
         <EuiSpacer size="xs" />
 
         <EuiButtonEmpty
-          href="https://wazuh.com/community/join-us-on-slack/"
+          href="https://triplecyber.com/contact"
           target="_blank"
           size="xs"
           flush="left"
-          iconType="logoSlack"
+          iconType="help"
         >
           <FormattedMessage
             id="core.ui.chrome.headerGlobalNav.helpMenuAskOpenSearchTitle"
-            defaultMessage="Slack Channel"
+            defaultMessage="TripleSOC Support"
           />
         </EuiButtonEmpty>
 
@@ -243,15 +243,15 @@ class HeaderHelpMenuUI extends Component<Props, State> {
         {surveyLink && (
           <div>
             <EuiButtonEmpty
-              href="https://github.com/wazuh/"
+              href="https://triplecyber.com"
               target="_blank"
               size="xs"
               flush="left"
-              iconType="logoGithub"
+              iconType="link"
             >
               <FormattedMessage
                 id="core.ui.chrome.headerGlobalNav.helpMenuFeedbackSurveyTitle"
-                defaultMessage="Projects on Github"
+                defaultMessage="TripleCyber Website"
               />
             </EuiButtonEmpty>
             <EuiSpacer size="xs" />
@@ -261,15 +261,15 @@ class HeaderHelpMenuUI extends Component<Props, State> {
         <EuiSpacer size="xs" />
 
         <EuiButtonEmpty
-          href="https://groups.google.com/forum/#!forum/wazuh/"
+          href="https://triplecyber.com/triplesoc"
           target="_blank"
           size="xs"
-          iconType="/ui/logos/google_groups.svg"
+          iconType="discoverApp"
           flush="left"
         >
           <FormattedMessage
             id="core.ui.chrome.headerGlobalNav.helpMenuOpenGitHubIssueTitle"
-            defaultMessage="Google Group"
+            defaultMessage="TripleSOC Product Page"
           />
         </EuiButtonEmpty>
       </Fragment>

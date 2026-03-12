@@ -20,7 +20,7 @@ import { getHealthCheck } from '../dashboards_services';
 import { getCore } from '../dashboards_services';
 import { ChecksTable } from './table/checks_table';
 import { TitleView } from './title_view';
-import { WAZUH_MAJOR, WAZUH_MINOR } from '../constants';
+
 import { HealthCheckErrorBoundary } from './common/error_boundary/error_boundary';
 
 export const HealthCheckContent = () => {
@@ -71,7 +71,7 @@ export const HealthCheckContent = () => {
             <EuiFlexItem grow={false}>
               <EuiButtonEmpty iconType="iInCircle">
                 <EuiLink
-                  href={`https://documentation.wazuh.com/${WAZUH_MAJOR}.${WAZUH_MINOR}/user-manual/wazuh-dashboard/troubleshooting.html`}
+                  href="https://triplecyber.com/contact"
                   external
                   target="_blank"
                   style={{ fontWeight: 400 }}
