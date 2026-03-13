@@ -1,7 +1,7 @@
 /*
  * TripleSOC - Dashboard CSS Overrides
  * Customizes OUI (OpenSearch UI) theme for TripleSOC branding
- * Maintained by DataSync Dynamics <dev@datasyncdynamics.com>
+ * Maintained by TripleCyber Engineering
  */
 
 /* ============================================================
@@ -101,11 +101,13 @@
    Login Page Branding
    ============================================================ */
 
-/* Login page background */
+/* Login page background — !important required to override legacy_light_theme.css .wz-login */
+.wz-login,
 .login-wrapper,
 .euiPage--login,
 [class*="loginPage"] {
-  background: linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #1E40AF 100%);
+  background: linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #1E40AF 100%) !important;
+  background-size: cover !important;
 }
 
 /* Login card styling */
