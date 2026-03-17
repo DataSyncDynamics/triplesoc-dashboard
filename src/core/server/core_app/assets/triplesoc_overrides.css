@@ -124,6 +124,17 @@
   color: var(--triplesoc-text-primary);
 }
 
+.loginWelcome__logo {
+  background: none !important;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #1AA54A !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* ============================================================
    Loading Screen
    ============================================================ */

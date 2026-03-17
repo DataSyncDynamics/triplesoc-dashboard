@@ -55,4 +55,4 @@ export enum HeaderVariant {
   PAGE = 'page',
   APPLICATION = 'application',
 }
-export const WAZUH_DOCUMENTATION_URL = `https://docs.triplecyber.com/${WAZUH_MAJOR}.${WAZUH_MINOR}/`;
+export const WAZUH_DOCUMENTATION_URL = 'https://docs.triplecyber.com';

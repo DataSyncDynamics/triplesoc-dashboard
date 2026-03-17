@@ -21,7 +21,7 @@ export const configureDashboardServerIsNotReadyRoutes = (
     serverBasePath = '',
   }: { getTroubleshootingLink: () => string; serverBasePath: string }
 ) => {
-  const appName = 'Wazuh dashboard';
+  const appName = 'TripleSOC Dashboard';
 
   server.route({
     path: '/{p*}',

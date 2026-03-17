@@ -66,7 +66,7 @@ export const Template: FunctionComponent<Props> = ({
   );
 
   const favicon = injectedMetadata.branding.faviconUrl;
-  const applicationTitle = injectedMetadata.branding.applicationTitle || 'OpenSearch Dashboards';
+  const applicationTitle = injectedMetadata.branding.applicationTitle || 'TripleSOC Dashboard';
 
   return (
     <html lang={locale}>
